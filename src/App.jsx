@@ -29,7 +29,7 @@ function App() {
   <img
     src={avatarImg}
     alt="Profile"
-    className="w-full h-max object-cover object-center"
+    className="w-full h-full md:h-max object-cover object-center"
   />
 </div>
 
