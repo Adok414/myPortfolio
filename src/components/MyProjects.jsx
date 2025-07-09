@@ -1,28 +1,25 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import site1 from '../images/site1.png';
-import site2 from '../images/site2.png';
-import site3 from '../images/site3.png';
 
 const projects = [
     {
     title: 'HTML, CSS',
     description: 'This project is built using only HTML and CSS.',
     link: 'https://adok414.github.io/my-first-site/',
-    image: site2,
+    image: '/img/site2.png',
   },
   {
     title: "HTML, CSS, JavaScript",
     description: "New Year's gift online store",
     link: 'https://adok414.github.io/Mysite/',
-    image: site1,
+    image: '/img/site1.png',
   },
   
   {
     title: 'React.js, Tailwind CSS, Node.js',
     description: 'Apple online store',
     link: 'https://your-weather-link.com',
-    image: site3,
+    image: '/img/site3.png',
   },
   
 ];
