@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className="">
-      <nav className="container mx-auto px-4 py-4 flex justify-center">
+      <nav className="bg-blue-950 lg:bg-transparent container mx-auto px-4 py-4 flex justify-center">
         
 
         <ul className="hidden md:flex space-x-8 text-gray-700 text-[20px]">
