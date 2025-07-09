@@ -1,25 +1,28 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import site1 from '../images/site1.png';
+import site2 from '../images/site2.png';
+import site3 from '../images/site3.png';
 
 const projects = [
     {
     title: 'HTML, CSS',
     description: 'This project is built using only HTML and CSS.',
     link: 'https://adok414.github.io/my-first-site/',
-    image: '/images/site2.png',
+    image: site2,
   },
   {
     title: "HTML, CSS, JavaScript",
     description: "New Year's gift online store",
     link: 'https://adok414.github.io/Mysite/',
-    image: '/images/site1.png',
+    image: site1,
   },
   
   {
     title: 'React.js, Tailwind CSS, Node.js',
     description: 'Apple online store',
     link: 'https://your-weather-link.com',
-    image: '/images/site3.png',
+    image: site3,
   },
   
 ];
@@ -40,7 +43,7 @@ function MyProjects() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-40 sm:h-48 object-cover"
+              className="w-full h-48 object-cover"
             />
 
             {/* Мәтін бөлім */}
