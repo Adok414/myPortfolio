@@ -40,7 +40,7 @@ function MyProjects() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover"
+              className="w-full h-40 sm:h-48 object-cover"
             />
 
             {/* Мәтін бөлім */}

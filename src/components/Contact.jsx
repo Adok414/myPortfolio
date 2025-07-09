@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
   return (
-    <section className="bg-[#0f111a] text-white py-10 px-8 animate-fadeIn">
+    <section className="bg-[#0f111a] text-white py-10 px-4 sm:px-6 md:px-8 lg:px-10 animate-fadeIn">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10">
         {/* Left */}
         <div className="flex-1 space-y-6">

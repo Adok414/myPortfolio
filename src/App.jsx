@@ -16,11 +16,8 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat bg-fixed"
-      style={{
-        backgroundImage: `url('/images/3.jpg')`,
-      }}
-    >
+  className="min-h-screen w-full bg-cover bg-center bg-no-repeat lg:bg-fixed bg-blue-950 lg:bg-[url('/images/3.jpg')]"
+>
       
 
       {/* Home Section */}
@@ -28,13 +25,14 @@ function App() {
         id="home"
         className="min-h-screen flex flex-col justify-center items-center gap-8 px-4"
       >
-        <div className="w-50 h-50 lg:w-52 lg:h-52 rounded-full border-4 border-gray-400 shadow-lg overflow-hidden animate-fadeIn">
-          <img
-            src={avatarImg}
-            alt="Profile"
-            className="w-full h-max object-cover"
-          />
-        </div>
+        <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 lg:w-52 lg:h-52 rounded-full border-4 border-gray-400 shadow-lg overflow-hidden animate-fadeIn">
+  <img
+    src={avatarImg}
+    alt="Profile"
+    className="w-full h-max object-cover object-center"
+  />
+</div>
+
 
         <div className="text-center text-white flex flex-col gap-4 animate-fadeIn">
           <h3

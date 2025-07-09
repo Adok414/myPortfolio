@@ -8,13 +8,14 @@ const About = () => {
       className="flex flex-col lg:flex-row items-center justify-center gap-10 p-6  backdrop-blur-xs text-white  rounded-lg lg:rounded-l-full shadow-2xl max-w-6xl mx-auto mt-10 animate-fadeIn"
     >
       {/* Сурет */}
-      <div className="w-60 h-60 rounded-lg lg:rounded-l-full overflow-hidden shadow-md">
-        <img
-          src={avatarImg}
-          alt="Profile"
-          className="w-full h-max object-cover"
-        />
-      </div>
+      <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-lg lg:rounded-l-full overflow-hidden shadow-md">
+  <img
+    src={avatarImg}
+    alt="Profile"
+    className="w-full h-max object-cover"
+  />
+</div>
+
 
       {/* Мәтін */}
       <div className="flex-1 space-y-4">
