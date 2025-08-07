@@ -21,6 +21,13 @@ const projects = [
     link: 'https://your-weather-link.com',
     image: '/img/site3.png',
   },
+
+  {
+    title: "React.js, Tailwind CSS, Node.js",
+    description: "Fishing online store",
+    link: "https://fish-project-five.vercel.app/",
+    image: "/img/site4.png",
+  }
   
 ];
 
