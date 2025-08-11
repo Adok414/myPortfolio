@@ -27,6 +27,13 @@ const projects = [
     description: "Fishing online store",
     link: "https://fish-project-five.vercel.app/",
     image: "/img/site4.png",
+  },
+
+  {
+    title: "React.js, Tailwind CSS",
+    description: "Basic online calculator",
+    link: "https://calculator-nine-lime-77.vercel.app/",
+    image: "/img/site5.png",
   }
   
 ];
