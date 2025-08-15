@@ -23,6 +23,13 @@ const projects = [
   },
 
   {
+    title: 'HTML, CSS',
+    description: 'Register/Auth',
+    link: 'https://register-auth-six.vercel.app/register.html',
+    image: '/img/site7.png',
+  },
+
+  {
     title: "React.js, Tailwind CSS, Node.js",
     description: "Fishing online store",
     link: "https://fish-project-five.vercel.app/",
