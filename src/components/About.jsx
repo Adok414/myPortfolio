@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarImg from '../../images/portfolio.jpg'; // өз суретіңнің дұрыс жолын жаз
+import avatarImg from '../../images/portfolio.jpg'; 
 
 const About = () => {
   return (
@@ -40,7 +40,7 @@ const About = () => {
 
         {/* Download CV кнопка */}
         <a
-          href="/Adilbek.pdf" 
+          href="/Rezume_Adilbek (1).pdf" 
           download
           className="inline-block mt-4 bg-orange-400 text-black font-semibold px-6 py-2 rounded hover:bg-orange-600 transition duration-300"
         >
