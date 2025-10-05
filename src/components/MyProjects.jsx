@@ -43,13 +43,21 @@ const projects = [
     image: "/img/site5.png",
   },
 
-    {
+  {
     title: "React.js, Tailwind CSS",
     description: "Restaurant Menu",
     link: "https://menu-restaurant-azure.vercel.app/",
     image: "/img/site6.png",
-  }
-  
+  },
+
+  {
+    title: "React.js, motion",
+    description: "Portfolio",
+    link: "https://react-portfolio-main-site.netlify.app/",
+    image: "/img/site8.png",
+  },
+
+
 ];
 
 function MyProjects() {
